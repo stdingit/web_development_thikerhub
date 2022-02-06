@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+}
+
+.parent {
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    height: 70px;
+    width: 70px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+  
+}
+
+.child1 {
+    background-image: url("https://www.sciencealert.com/images/2021-01/processed/moon_topic_1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.child2 {
+    background-image: url("https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1583920665/DCUK/Content/iStock-947314334-1000x600.jpg");
+}
+
+.child3 {
+    background-image: url("https://www.collinsdictionary.com/images/full/snow_306991961.jpg");
+}
+
+.child4 {
+    background-image: url("https://i.ytimg.com/vi/3wFvFvVZkwY/maxresdefault.jpg");
+}
+
+
